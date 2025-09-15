@@ -1,7 +1,13 @@
 public class CartaoDebito
 {
+    public CartaoDebito()
+    {
+        Bandeira = BandeiraCartao.Mastercard;
+    }
+
     public string Numero { get; set; }
-    public string Bandeira { get; set; }
+    //publi string Bandeira {get; set;}
+    public BandeiraCartao Bandeira { get; set; }
 
 }
 
