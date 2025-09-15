@@ -6,11 +6,9 @@ public class CartaoDebito
     }
 
     public string Numero { get; set; }
-    //publi string Bandeira {get; set;}
+    //publi string Bandeira {get; set;} //visa, Visa, VISA
     public BandeiraCartao Bandeira { get; set; }
-
 }
-
 
 public enum BandeiraCartao
 {
